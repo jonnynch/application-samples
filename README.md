@@ -15,8 +15,12 @@ metadata:
 ```bash
 oc apply -k subscriptions/channel
 ```
-2. Now apply the subscription you want to demonstrato
+2. Now apply the subscription you want to demonstrate
 ```bash
 oc apply -k subscriptions/DEMO_APP_NAME
+```
+e.g.
+```
+oc apply -k subscriptions/nginx
 ```
 3. You can also add these applications using the Red Had Advanced Cluster Management for Kubernetes console.
